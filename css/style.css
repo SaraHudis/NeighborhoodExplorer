@@ -10,6 +10,17 @@ body {
     z-index: 3;
 }
 
+.menuItem {
+    display: flex;
+    width: 80%;
+    flex-direction: row;
+    justify-content: center;
+    }
+    
+    .menuItem > p {
+    padding: 15px;
+    }
+
 .about {
     position:relative;
     width: 100%;
