@@ -9,6 +9,17 @@ body {
     font-size: 48px;
   }
 
+  h2 {
+    font-family: 'Press Start 2P', cursive;
+    font-weight:400;
+    letter-spacing: 2px;
+    font-size: 36px;
+  }
+
+  P, h3, h4, h5 {
+    font-family: 'Space Grotesk', sans-serif;
+  }
+
 
   .navbar {
     position:fixed;
