@@ -1,0 +1,25 @@
+body {
+    margin:0;
+  }
+
+  .navbar {
+    position:fixed;
+    width: 100%;
+    background-color:#1E1E1E;
+    background-size: cover;
+    z-index: 3;
+}
+
+.about {
+    position:relative;
+    width: 100%;
+    background-color:#CE5C34;
+    background-size: cover;
+}
+
+
+
+@media (max-width: 960px) {
+ 
+    }
+  
