@@ -10,16 +10,31 @@ body {
     z-index: 3;
 }
 
-.menuItem {
-    display: flex;
-    width: 80%;
-    flex-direction: row;
+.navbar-nav {
+    margin-left: auto;
+    margin-right: 0 !important;
+  }
+  .navbar-brand img {
+    justify-content: right;
+    margin: 2%;
+  }
+
+  .nav-item {
+    margin: 0px 15px;
     justify-content: center;
-    }
-    
-    .menuItem > p {
-    padding: 15px;
-    }
+  }
+ 
+.nav-link {
+    color: #f2f2f2;
+}
+
+.nav-link:hover {
+    color: #CE5C34;
+  }
+
+  .customNav a {
+    color: white !important;
+  }
 
 .about {
     position:relative;
