@@ -44,6 +44,14 @@ body {
     background-size: cover;
 }
 
+.jumbotron {
+    background-size: cover;
+    height: calc(100vh - 25px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
 
 
 @media (max-width: 960px) {
