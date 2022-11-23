@@ -71,6 +71,14 @@ body {
     justify-content: center;
   }
 
+  .jumboCopy {
+    width: 70%;
+    min-width: 500px;
+    max-width: 700px;
+    color: white;
+    text-align: center;
+  }
+
   .btn {
     height: 40px;
     width: 140px;
@@ -80,7 +88,7 @@ body {
 }
 
 .btn:hover {
-    
+
 }
 
 
