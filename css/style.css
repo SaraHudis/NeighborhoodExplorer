@@ -20,7 +20,7 @@ body {
   }
 
   .nav-item {
-    margin: 0px 15px;
+    margin: 0px 20px;
     justify-content: center;
   }
  
@@ -33,12 +33,13 @@ body {
   }
 
   .customNav a {
-    color: white !important;
+    color: white;
   }
 
 .about {
-    position:relative;
+    height: calc(100vh - 25px);
     width: 100%;
+    display: flex;
     background-color:#CE5C34;
     background-size: cover;
 }
