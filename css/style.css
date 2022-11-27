@@ -57,20 +57,12 @@ body {
   }
 
 .about {
-    height: calc(100vh - 25px);
     width: 100%;
     display: flex;
     background-color:#CE5C34;
     background-size: cover;
 }
 
-.jumbotron {
-    background-size: cover;
-    height: calc(100vh - 25px);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
 
   .containertext {
     margin: 5%;
@@ -118,7 +110,8 @@ body {
 }
 
 .btn:hover {
-
+background-color: #52CA7F;
+border: 1px solid black;
 }
 
 
@@ -132,9 +125,11 @@ footer {
   }
 
 .socialMedia {
-        width: 100%;
-        flex-direction:row;
-        justify-content: left;
+  margin: 2%;
+  display: flex;
+  width: 100%;
+  flex-direction:row;
+  justify-content: left;
     }
 
 .socialMedia > img {
@@ -142,16 +137,20 @@ footer {
 }
 
 .copyright {
+  margin-top: 5%;
     display: flex;
     width: 100%;
     flex-direction: row;
     justify-content: right;
 }
     
+.copyright > p {
+  margin-right: 5%;
+}
 
 
 
 @media (max-width: 960px) {
- 
+  
     }
   
