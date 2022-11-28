@@ -117,7 +117,17 @@ border: 1px solid black;
 .form {
   background-color: #406B7D;
   font-family: 'Space Grotesk', sans-serif;
-  padding: 40px;
+  padding: 60px;
+  justify-content: center;
+}
+
+.involvedHeading {
+  color: white;
+  text-shadow: 2px 2px #000000;
+}
+
+.formH2 {
+  color: black;
 }
 
 .lable {
