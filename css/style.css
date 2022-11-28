@@ -114,6 +114,15 @@ background-color: #52CA7F;
 border: 1px solid black;
 }
 
+.form {
+  background-color: #406B7D;
+  font-family: 'Space Grotesk', sans-serif;
+  padding: 40px;
+}
+
+.lable {
+  color: white
+}
 
 footer {
   background-size: cover;
