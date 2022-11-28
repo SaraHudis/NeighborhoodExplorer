@@ -168,8 +168,30 @@ footer {
 }
 
 
-
-@media (max-width: 960px) {
+@media (max-width: 900px) {
+  .about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: auto;
+  }
   
-    }
+
+  .rowCards {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-bottom: 50px;
+  margin: 5%;
+  }
+
+.cardContainer {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+width: 95%;
+margin: 3%;
+}};
+
   
